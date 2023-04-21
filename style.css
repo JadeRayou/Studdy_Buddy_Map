@@ -117,6 +117,14 @@ section#header_1{
     margin-top:100px ;
     margin-left: 70%;
     font-family: "Sora";
+    cursor: pointer;
+
+}
+
+.bouton_accueil_1:hover{
+    color:#8367C7 ;
+    background-color: #FFF;
+    transform:translateX(-10px) ;
 
 }
 
