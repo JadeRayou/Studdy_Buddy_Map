@@ -32,16 +32,33 @@
       </section>
 
     <div class="maps_container_1">
-        <div class="interface_map_1">
-            <div class="saisie_1">
-
-            </div>
-            <div class="filtre_1">
-      
-            </div>
-        </div>
         <div id="map"></div>
     </div>
+
+    <dialog id="laModale">
+        <p>Ajouter un nouveau marker :</p>
+        <form method="dialog">
+            <p>
+                <label>Nom :
+                    <input type="text" id="nom" />
+                </label>
+            </p>
+            <p>
+                <label>Description :
+                    <input type="text" id="description" />
+                </label>
+            </p>
+            <p>
+                <label>Téléphone :
+                    <input type="text" id="telephone" />
+                </label>
+            </p>
+            <div>
+                <button value="non">Annuler</button>
+                <button value="oui">Valider</button>
+            </div>
+        </form>
+    </dialog>
 
     <script src="main.js"></script> 
 </body>

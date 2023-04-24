@@ -38,4 +38,3 @@ module.exports.collections = {
         return dbClient.collection('markers');
     }
 };
-    
